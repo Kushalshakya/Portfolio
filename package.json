@@ -8,9 +8,9 @@
     "jquery": "^3.7.1"
   },
   "scripts": {
-    "copy-bootstrap": "copyfiles -u 2 node_modules/bootstrap/dist/**/* public/vendor/bootstrap",
+    "copy-bootstrap": "copyfiles -u 2 node_modules/bootstrap/dist/css/bootstrap.min.css public/vendor/bootstrap",
     "copy-gsap": "copyfiles -u 2 node_modules/gsap/dist/**/* public/vendor/gsap",
-    "copy-jquery": "copyfiles -u 2 node_modules/jquery/dist/* public/vendor/jquery",
+    "copy-jquery": "copyfiles -u 2 node_modules/jquery/dist/jquery.min.js public/vendor/jquery",
     "build": "npm run copy-bootstrap && npm run copy-gsap && npm run copy-jquery"
   },
   "devDependencies": {
