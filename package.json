@@ -13,9 +13,6 @@
     "copy-jquery": "copyfiles -u 2 node_modules/jquery/dist/jquery.min.js public/vendor/jquery",
     "build": "npm run copy-bootstrap && npm run copy-gsap && npm run copy-jquery"
   },
-  "devDependencies": {
-    "copyfiles": "^2.4.1"
-  },
   "author": "Kushal Shakya",
   "license": "ISC",
   "description": "",
